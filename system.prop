@@ -1,0 +1,46 @@
+#
+# system.prop for tenderloin
+#
+#ro.sf.hwrotation=270
+
+ro.additionalmounts=/mnt/usbdisk
+
+ro.cwm.forbid_format=/boot
+
+wifi.supplicant_scan_interval=90
+wifi.interface=wlan0
+
+debug.fb.rgb565 = 0
+debug.sf.hw=1
+debug.enabletr=false
+windowsmgr.max_events_per_sec=150
+com.qc.hardware=true
+
+#GPU Tweaks
+debug.composition.type=gpu
+#ro.sf.compbypass.enable=1
+#debug.overlayui.enable=0
+
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+ro.media.enc.jpeg.quality=100
+ro.config.play.bootsound=1
+
+# The OpenGL ES API level that is natively supported by this device.
+# This is a 16.16 fixed point number
+ro.opengles.version = 131072
+
+# For emmc phone storage
+ro.phone_storage = 1
+
+# Make rmt_storage start at init
+ro.emmc = 1
+
+# bluetooth
+net.bt.name=Android
+
+persist.service.adb.enable=1
+
+

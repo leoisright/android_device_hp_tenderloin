@@ -1,0 +1,22 @@
+#!/system/xbin/bash
+
+export PATH=/system/xbin:/system/bin
+
+busybox mount /boot -o remount,rw
+
+case "$1" in
+    recovery)
+        CMD="ClockworkMod"
+        ;;
+    altos)
+        CMD="webOS"
+        ;;
+    *)
+        exit 2
+esac
+
+# possibly we need to check if the target exists, but
+# currently moboot ignores invalid targets so we are good
+echo -n $CMD >/boot/moboot.next
+sync
+busybox unmount /boot
