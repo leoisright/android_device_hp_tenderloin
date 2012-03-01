@@ -15,15 +15,15 @@ PRODUCT_MODEL := Touchpad
 PRODUCT_MANUFACTURER := HP
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=touchpad \
-    BUILD_ID=HLK75F \
-    BUILD_FINGERPRINT="verizon/trygon/stingray:3.2.4/HLK75F/221360:user/release-keys" \
-    PRIVATE_BUILD_DESC="trygon-user 3.2.4 HLK75F 221360 release-keys"
+    BUILD_ID=IML74K \
+    BUILD_FINGERPRINT="hp/hp_tenderloin/tenderloin:4.0.3/IML74K/221360:user/release-keys" \
+    PRIVATE_BUILD_DESC="tenderloin-user 4.0.3 IML74K 221360 release-keys"
 
 # Set up the product codename, build version & MOTD.
 PRODUCT_CODENAME := Butta
-PRODUCT_VERSION_DEVICE_SPECIFIC := v3.1-Odex
+PRODUCT_VERSION_DEVICE_SPECIFIC := v3.2-Odex
 
-PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Classicnerd for your HP Touchpad\nGet the latest rom at www.classicnerd.net\n------------------------------------------------\n"
+PRODUCT_MOTD :="\--------------------MESSAGE---------------------\Thank you for choosing Classicnerd for your HP Touchpad\nGet the latest rom at www.classicnerd.net"
 
 #PRODUCT_PACKAGES += \
 #    Camera

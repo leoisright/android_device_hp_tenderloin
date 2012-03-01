@@ -149,6 +149,15 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libQcomUI
 
+# QCOM OMX
+PRODUCT_PACKAGES += \
+	libstagefrighthw \
+	libOmxCore \
+	libmm-omxcore \
+	libdivxdrmdecrypt \
+	libOmxVdec
+
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
@@ -162,6 +171,7 @@ PRODUCT_PACKAGES += \
     sensors.tenderloin \
     lights.tenderloin \
     ts_srv \
+    ts_srv_set \
     dosfsck \
     bcattach \
     serial \
